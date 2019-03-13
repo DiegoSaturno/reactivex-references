@@ -1,0 +1,22 @@
+{
+  "name": "reactivex-references",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoSetubal/reactivex-references.git"
+  },
+  "author": "Diego Oliveira (diego.oliveira@dtidigital.com.br)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoSetubal/reactivex-references/issues"
+  },
+  "homepage": "https://github.com/DiegoSetubal/reactivex-references#readme",
+  "dependencies": {
+    "rxjs": "^6.4.0"
+  }
+}
