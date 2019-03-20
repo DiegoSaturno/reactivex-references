@@ -1,14 +1,13 @@
 const { range } = require('rxjs');
 
 
-const customObserver = {
+range(1, 5).subscribe({
     sum: 0,
     next(value) {
+        console.log(value);
         this.sum += value;
     },
     complete() {
         console.log(`Soma: ${this.sum}`);
     }
-};
-
-range(1, 5).subscribe(customObserver);
+});

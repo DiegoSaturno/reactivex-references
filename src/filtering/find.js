@@ -10,5 +10,5 @@ const users = [
 ];
 
 from(users).pipe(
-    find(u => u.id === 554)
+    find(u => u.tipo === 2)
 ).subscribe(x => console.log(x));
