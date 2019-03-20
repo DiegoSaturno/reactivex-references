@@ -14,9 +14,6 @@ let emp2 = {
     endereco: empreendimento.endereco
 };
 
-
-
-
 const observable = merge([emp1, emp2]);
 
 observable.subscribe((x) => console.log(x));
